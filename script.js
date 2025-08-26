@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Render Functions ---
     function renderContent() {
         let patternsHtml = patterns.map(p => `
-            <article>
+            <article class="pattern-card">
                 <h3>${p.title}</h3>
                 <img src="${p.image}" alt="${p.title}" class="pattern-image">
                 <p>${p.description}</p>
@@ -109,7 +109,9 @@ document.addEventListener('DOMContentLoaded', () => {
             ${introduction}
             <section>
                 <h2>Patrones de Velas Comunes</h2>
-                ${patternsHtml}
+                <div class="patterns-container">
+                    ${patternsHtml}
+                </div>
             </section>
             <section id="quiz">
                 <h2>Pon a Prueba tu Conocimiento</h2>
