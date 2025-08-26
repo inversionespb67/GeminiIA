@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
             answers: [
                 { text: 'Marubozu Alcista', correct: true },
                 { text: 'Doji', correct: false },
-.                { text: 'Marubozu Bajista', correct: false },
+                { text: 'Marubozu Bajista', correct: false },
             ],
         },
         {
